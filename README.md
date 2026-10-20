@@ -53,17 +53,17 @@ Se precisar remover completamente um submódulo do projeto, execute os comandos 
 
 1. **Desvincular e remover a pasta do submódulo:**
    ```bash
-      	git push --set-upstream origin main
-   		git rm -f games/game_javascript
+      git push --set-upstream origin main
+      git rm -f games/game_javascript
    ```
 
 2. **Limpar o cache do Git:**
    ```bash
-		rm -rf .git/modules/games/game_javascript
+      rm -rf .git/modules/games/game_javascript
    ```
 
 3. **Registrar a remoção:**
    ```bash
-		git add .
-   		git commit -m "🗑️ Remove submódulo do projeto"
+      git add .
+      git commit -m "🗑️ Remove submódulo do projeto"
    ```
