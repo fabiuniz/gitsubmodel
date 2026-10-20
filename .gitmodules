@@ -1,3 +1,6 @@
 [submodule "games/game_javascript"]
 	path = games/game_javascript
 	url = https://github.com/fabiuniz/game_javascript.git
+[submodule "games/quiz_essencial"]
+	path = games/quiz_essencial
+	url = https://github.com/fabiuniz/quiz_essencial.git
