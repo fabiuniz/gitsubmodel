@@ -4,3 +4,6 @@
 [submodule "games/quiz_essencial"]
 	path = games/quiz_essencial
 	url = https://github.com/fabiuniz/quiz_essencial.git
+[submodule "games/tofluence"]
+	path = games/tofluence
+	url = https://github.com/fabiuniz/tofluence.git
